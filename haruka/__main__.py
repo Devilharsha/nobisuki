@@ -91,7 +91,7 @@ Hey User!!✋
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add Vegeta to Group ☑",
+                            text="☑ Add NOBISUKI to Group ☑",
                             url="t.me/VegetaRobot?startgroup=true"),
                     ],
                    [
