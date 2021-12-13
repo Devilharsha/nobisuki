@@ -21,15 +21,14 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, I'M {}!
-
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of the things I can help you with.
-
-Deploy a bot like me [Now](www.github.com/IVETRI/SoulQueen)
-
-Watch A Video To Deploay A Bot Like Me. Click 👉🏻[HERE](https://youtu.be/reQQKqbd1-k)👈🏻
-
-Click /help or Help button below to find out more about how to use me to my full potential.
+PM_START = """───"✰Nobisuki✰ 
+Powerfull group manager bot!"───
+Hello! User,👋
+I am ✰Nobisuki✰
+➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
+┏━━━━━━━━━━━━━━━━━━━━━┓
+┃➪ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ┃ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ┃ғᴇᴀᴛᴜʀᴇs.
+┗━━━━━━━━━━━━━━━━━━━━━┛
 """
 
 
@@ -155,7 +154,7 @@ def send_start(bot, update):
             text="🤗 Add Me 🥳", url="http://t.me/SoulQueenBot?startgroup=true"
         ),
     ],
-]
+
 
     update.effective_message.reply_text(PM_START.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
