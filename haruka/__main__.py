@@ -6,7 +6,7 @@ import time
 import traceback
 from sys import argv
 from typing import Optional
-from SoulQueen import Client
+from haruka import Client
 
 from telegram import (
     Chat,
