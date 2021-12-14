@@ -153,26 +153,15 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START
 
-    buttons = [
-    [
+    keyboard = [[InlineKeyboardButton(text="🇮🇳 Language 🇮🇳", callback_data="set_lang_")]]
+    keyboard += [[InlineKeyboardButton(text="⚜ Reporting ⚜", callback_data="cntrl_panel_M"), 
+        InlineKeyboardButton(text="❓ Help ❓", callback_data="help_back")],
+                 [
         InlineKeyboardButton(
-                            text="☑ Add NOBISUKI to Group ☑",
-                            url="t.me/Nobisukibot?startgroup=true"),
-                    ],
-                   [
-                       InlineKeyboardButton(text="✧ Network", url="t.me/pegasusXteam"),
-                       InlineKeyboardButton(text="✧ Logs", url="t.me/pegasusLogs"),
-                     ],
-                    [                  
-                       InlineKeyboardButton(
-                             text="✧ Support",
-                             url=f"https://t.me/UnitedSupport"),
-                       InlineKeyboardButton(
-                             text="✧ Updates",
-                             url=f"https://t.me/PegasusUpdates"
-         ),
+            text="🤗 Add Me 🥳", url="http://t.me/NobisukiBot?startgroup=true"
+        ),
     ],
-] 
+]
 
     update.effective_message.reply_text(PM_START.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
