@@ -27,7 +27,7 @@ Powerfull group manager bot!"───
 
 Hello! User,👋
 
-I am ✰Nobisuki✰
+I am ✰NOBISUKI✰
 
 ➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
 
@@ -156,8 +156,8 @@ def send_start(bot, update):
     buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add Vegeta to Group ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            text="☑ Add NOBISUKI to Group ☑",
+                            url="t.me/Nobisukibot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(text="✧ Network", url="t.me/pegasusXteam"),
