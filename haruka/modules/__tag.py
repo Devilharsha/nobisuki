@@ -7,7 +7,7 @@
 # All rights reserved.
 
 
-from pyrogram import filters
+from haruka import filters
 
 from haruka.pyrogramee.pluginshelper import admins_only, get_text
 from haruka import pbot
