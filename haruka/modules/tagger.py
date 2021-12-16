@@ -241,7 +241,7 @@ def tagall(update, context):
 
 
 @run_async
-@bot_admin
+@group_admin
 @user_admin
 @typing_action
 def untagall(update, context):
