@@ -25,6 +25,6 @@ Report your problem along with your name to [this person](https://t.me/iMvEtRi) 
 
 # Credits
 
-This repo is just a custom fork of [HarukaAya](https://github.com/IVETRI/SoulQueenPro) 💃🏻
+This repo is just a custom fork of sample(https://github.com/IVETRI/SoulQueenPro) 💃🏻
 
 Thanks to the Real [developer](https://t.me/RealAkito)! 🤗
