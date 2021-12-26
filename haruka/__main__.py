@@ -159,6 +159,10 @@ def send_start(bot, update):
                  [
         InlineKeyboardButton(
             text="🤗 Add Me 🥳", url="http://t.me/NobisukiBot?startgroup=true"
+                [
+         InlineKeyboardButton(text="updates 💖", url="http://t.me/sctbots"
+                [
+          InlineKeyboardButton(text="support 💗", url="http://t.me/sctbotsSupport
         ),
     ],
 ]
