@@ -53,17 +53,11 @@ PM_START = """𝙃𝙚𝙡𝙡𝙤 {},𝙄 𝙖𝙢 Infernipe,
 
 ┗━━━━━━━━━━━━━━━━━━━ """
  
-buttons = [ 
-    [ 
-        InlineKeyboardButton( text="➕️ ADD Nobisuki TO YOUR GROUP ➕️",url="t.me/Nobisukibot?startgroup=true"),
-                                   
-    ],
-    ]   
-        InlineKeyboardButton( text="nobisuki updates 💝',url="https://t.me/sctbots"),
+
           
-    ]
-    ]
-        InlineKeyboardButton( text=",nobisuki support 💖🥰" ,url=https://t.me/sctbotssupport"),
+    
+
+        
 
 
 
@@ -190,6 +184,12 @@ def send_start(bot, update):
                  [
         InlineKeyboardButton(
             text="🤗 Add Me 🥳", url="http://t.me/NobisukiBot?startgroup=true"
+         InlineKeyboardButton( text="nobisuki updates 💝',url="https://t.me/sctbots"),
+                 [
+         InlineKeyboardButton( text=",nobisuki support 💖🥰" ,url=https://t.me/sctbotssupport"),
+
+
+    ]
         ),
     ],
 ]
